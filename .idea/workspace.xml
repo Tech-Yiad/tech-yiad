@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fc9a9aeb-8a4a-4b40-a708-f6021bd91276" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/Projects.html" afterPath="$PROJECT_DIR$/Projects.html" />
+      <change beforePath="$PROJECT_DIR$/Projects/shelterfind.html" afterPath="$PROJECT_DIR$/Projects/shelterfind.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,8 +30,8 @@
       <file leaf-file-name="shelterfind.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Projects/shelterfind.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+            <state relative-caret-position="51">
+              <caret line="97" column="33" lean-forward="true" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -54,8 +55,8 @@
       <file leaf-file-name="Projects.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Projects.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="76" column="44" lean-forward="true" selection-start-line="76" selection-start-column="44" selection-end-line="76" selection-end-column="44" />
+            <state relative-caret-position="204">
+              <caret line="77" column="49" lean-forward="false" selection-start-line="77" selection-start-column="49" selection-end-line="77" selection-end-column="49" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -135,9 +136,9 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Contact.html" />
         <option value="$PROJECT_DIR$/About.html" />
-        <option value="$PROJECT_DIR$/Projects/shelterfind.html" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/Projects/shelterfind.html" />
         <option value="$PROJECT_DIR$/Projects.html" />
       </list>
     </option>
@@ -235,12 +236,12 @@
       <option name="presentableId" value="Default" />
       <updated>1539813076481</updated>
       <workItem from="1539813078190" duration="10506000" />
-      <workItem from="1539953097165" duration="11562000" />
+      <workItem from="1539953097165" duration="11947000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22068000" />
+    <option name="totallyTimeSpent" value="22453000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -404,14 +405,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/shelterfind.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -428,10 +421,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/iconNew2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/shelterfind.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="97" column="33" lean-forward="true" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Projects.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="76" column="44" lean-forward="true" selection-start-line="76" selection-start-column="44" selection-end-line="76" selection-end-column="44" />
+        <state relative-caret-position="204">
+          <caret line="77" column="49" lean-forward="false" selection-start-line="77" selection-start-column="49" selection-end-line="77" selection-end-column="49" />
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
           </folding>
