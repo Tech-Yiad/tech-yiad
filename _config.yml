@@ -18,9 +18,9 @@ email:  shelterfind.help@gmail.com
 description:  >- # this means to ignore newlines until "baseurl:"
  Tech-Yiad is a software company that help solve real world problems using software solutions
 baseurl:  /tech-yiad # the subpath of your site, e.g. /blog
-url:  "" # the base hostname & protocol for your site, e.g. http://example.com
+url:  "https://tech-yiad.github.io/tech-yiad/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  Tech-Yiad
 
 # Build settings
 markdown: kramdown
