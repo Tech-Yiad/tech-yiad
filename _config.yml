@@ -21,6 +21,7 @@ baseurl:  /tech-yiad # the subpath of your site, e.g. /blog
 url:  "https://tech-yiad.github.io/tech-yiad/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  Tech-Yiad
+logo: /images/New_BannerFinal.png
 
 # Build settings
 markdown: kramdown
