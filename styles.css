@@ -181,6 +181,8 @@ a img{
     position: relative;
     background: #CC0066;
     height: 160px;
+    color: white;
+    font-weight: bold;
   }
 
     .android-drawer .android-logo-image {
