@@ -19,7 +19,7 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 html{
-  color: #545454;
+  /*color: #545454;*/
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -29,12 +29,12 @@ a img{
 }
 
 ::-moz-selection {
-  background-color: #CC0066;
+  background-color: #ea1535;
   color: #fff;
 }
 
 ::selection {
-  background-color: #CC0066;
+  background-color: #ea1535;
   color: #fff;
 }
 
@@ -80,8 +80,29 @@ a img{
 
 .android-header {
   overflow: visible;
-  background-color: #CC0066;
+  /*background-color: #ea1535;*/
 
+
+  background: rgba(252,190,5,1);
+  background: -moz-linear-gradient(left, rgba(252,190,5,1) 0%, rgba(247,132,10,1) 26%, rgba(246,41,12,1) 51%, rgba(245,91,8,1) 71%, rgba(245,27,8,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(252,190,5,1)), color-stop(26%, rgba(247,132,10,1)), color-stop(51%, rgba(246,41,12,1)), color-stop(71%, rgba(245,91,8,1)), color-stop(100%, rgba(245,27,8,1)));
+  background: -webkit-linear-gradient(left, rgba(252,190,5,1) 0%, rgba(247,132,10,1) 26%, rgba(246,41,12,1) 51%, rgba(245,91,8,1) 71%, rgba(245,27,8,1) 100%);
+  background: -o-linear-gradient(left, rgba(252,190,5,1) 0%, rgba(247,132,10,1) 26%, rgba(246,41,12,1) 51%, rgba(245,91,8,1) 71%, rgba(245,27,8,1) 100%);
+  background: -ms-linear-gradient(left, rgba(252,190,5,1) 0%, rgba(247,132,10,1) 26%, rgba(246,41,12,1) 51%, rgba(245,91,8,1) 71%, rgba(245,27,8,1) 100%);
+  background: linear-gradient(to right, rgba(252,190,5,1) 0%, rgba(247,132,10,1) 26%, rgba(246,41,12,1) 51%, rgba(245,91,8,1) 71%, rgba(245,27,8,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcbe05', endColorstr='#f51b08', GradientType=1 );
+
+}
+
+.shelterfind-read-more{
+  /*background: rgba(252,190,5,1);*/
+  /*background: -moz-linear-gradient(left, rgba(252,190,5,1) 0%, rgba(247,132,10,1) 26%, rgba(246,41,12,1) 51%, rgba(245,91,8,1) 71%, rgba(245,27,8,1) 100%);*/
+  /*background: -webkit-gradient(left top, right top, color-stop(0%, rgba(252,190,5,1)), color-stop(26%, rgba(247,132,10,1)), color-stop(51%, rgba(246,41,12,1)), color-stop(71%, rgba(245,91,8,1)), color-stop(100%, rgba(245,27,8,1)));*/
+  /*background: -webkit-linear-gradient(left, rgba(252,190,5,1) 0%, rgba(247,132,10,1) 26%, rgba(246,41,12,1) 51%, rgba(245,91,8,1) 71%, rgba(245,27,8,1) 100%);*/
+  /*background: -o-linear-gradient(left, rgba(252,190,5,1) 0%, rgba(247,132,10,1) 26%, rgba(246,41,12,1) 51%, rgba(245,91,8,1) 71%, rgba(245,27,8,1) 100%);*/
+  /*background: -ms-linear-gradient(left, rgba(252,190,5,1) 0%, rgba(247,132,10,1) 26%, rgba(246,41,12,1) 51%, rgba(245,91,8,1) 71%, rgba(245,27,8,1) 100%);*/
+  /*background: linear-gradient(to right, rgba(252,190,5,1) 0%, rgba(247,132,10,1) 26%, rgba(246,41,12,1) 51%, rgba(245,91,8,1) 71%, rgba(245,27,8,1) 100%);*/
+  /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcbe05', endColorstr='#f51b08', GradientType=1 );*/
 }
 
   .android-header .material-icons {
@@ -174,12 +195,12 @@ a img{
 
 
 .android-drawer span.mdl-navigation__link.mdl-navigation__link {
-    color: #CC0066;
+    color: #ea1535;
   }
 
   .android-drawer .mdl-layout-title {
     position: relative;
-    background: #CC0066;
+    background: #ea1535;
     height: 160px;
     color: white;
     font-weight: bold;
@@ -208,9 +229,24 @@ a img{
 }
 
 .projects-title{
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 4px;
+  padding-bottom: 21px;
+  text-decoration: #121719;
+  text-shadow: 1px 2px 2px #3D2B1F;
+  font-size: 50px;
+
 }
+/*.shelterFind{*/
+  /*width: 540px;*/
+  /*height: auto;*/
+/*}*/
+
+/*@media screen and (max-width: 799px) {*/
+  /*.shelterFind{*/
+    /*width: 50%;*/
+  /*}*/
+/*}*/
+
 .someText{
   float: left;
   padding-left: 60px;
@@ -244,18 +280,36 @@ a img{
     font-weight: 300;
   }
 
+.sheterFind-wear {
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  background: rgba(255,173,10,0.77);
+  background: -moz-linear-gradient(top, rgba(255,173,10,0.77) 0%, rgba(255,173,10,0.78) 3%, rgba(238,245,32,0.82) 24%, rgba(243,224,31,0.88) 52%, rgba(247,204,30,0.89) 79%, rgba(255,148,76,0.89) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,173,10,0.77)), color-stop(3%, rgba(255,173,10,0.78)), color-stop(24%, rgba(238,245,32,0.82)), color-stop(52%, rgba(243,224,31,0.88)), color-stop(79%, rgba(247,204,30,0.89)), color-stop(100%, rgba(255,148,76,0.89)));
+  background: -webkit-linear-gradient(top, rgba(255,173,10,0.77) 0%, rgba(255,173,10,0.78) 3%, rgba(238,245,32,0.82) 24%, rgba(243,224,31,0.88) 52%, rgba(247,204,30,0.89) 79%, rgba(255,148,76,0.89) 100%);
+  background: -o-linear-gradient(top, rgba(255,173,10,0.77) 0%, rgba(255,173,10,0.78) 3%, rgba(238,245,32,0.82) 24%, rgba(243,224,31,0.88) 52%, rgba(247,204,30,0.89) 79%, rgba(255,148,76,0.89) 100%);
+  background: -ms-linear-gradient(top, rgba(255,173,10,0.77) 0%, rgba(255,173,10,0.78) 3%, rgba(238,245,32,0.82) 24%, rgba(243,224,31,0.88) 52%, rgba(247,204,30,0.89) 79%, rgba(255,148,76,0.89) 100%);
+  background: linear-gradient(to bottom, rgba(255,173,10,0.77) 0%, rgba(255,173,10,0.78) 3%, rgba(238,245,32,0.82) 24%, rgba(243,224,31,0.88) 52%, rgba(247,204,30,0.89) 79%, rgba(255,148,76,0.89) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffad0a', endColorstr='#ff944c', GradientType=0 );
+}
 .android-screen-section {
   position: relative;
-  padding-top: 60px;
+  padding-top: 40px;
   padding-bottom: 80px;
-  background: rgba(237,237,237,1);
-  background: -moz-linear-gradient(left, rgba(237,237,237,1) 0%, rgba(240,240,240,1) 11%, rgba(250,250,250,1) 95%, rgba(250,250,250,1) 100%);
-  /*background: -webkit-gradient(left top, right top, color-stop(0%, rgba(237,237,237,1)), color-stop(11%, rgba(240,240,240,1)), color-stop(95%, rgba(250,250,250,1)), color-stop(100%, rgba(250,250,250,1)));*/
-  background: -webkit-linear-gradient(left, rgba(237,237,237,1) 0%, rgba(240,240,240,1) 11%, rgba(250,250,250,1) 95%, rgba(250,250,250,1) 100%);
-  background: -o-linear-gradient(left, rgba(237,237,237,1) 0%, rgba(240,240,240,1) 11%, rgba(250,250,250,1) 95%, rgba(250,250,250,1) 100%);
-  background: -ms-linear-gradient(left, rgba(237,237,237,1) 0%, rgba(240,240,240,1) 11%, rgba(250,250,250,1) 95%, rgba(250,250,250,1) 100%);
-  background: linear-gradient(to right, rgba(237,237,237,1) 0%, rgba(240,240,240,1) 11%, rgba(250,250,250,1) 95%, rgba(250,250,250,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#fafafa', GradientType=1 );
+  background: rgba(226,226,226,1);
+  background: -moz-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(226,226,226,1) 7%, rgba(219,219,219,1) 27%, rgba(209,209,209,1) 63%, rgba(254,254,254,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(226,226,226,1)), color-stop(7%, rgba(226,226,226,1)), color-stop(27%, rgba(219,219,219,1)), color-stop(63%, rgba(209,209,209,1)), color-stop(100%, rgba(254,254,254,1)));
+  background: -webkit-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(226,226,226,1) 7%, rgba(219,219,219,1) 27%, rgba(209,209,209,1) 63%, rgba(254,254,254,1) 100%);
+  background: -o-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(226,226,226,1) 7%, rgba(219,219,219,1) 27%, rgba(209,209,209,1) 63%, rgba(254,254,254,1) 100%);
+  background: -ms-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(226,226,226,1) 7%, rgba(219,219,219,1) 27%, rgba(209,209,209,1) 63%, rgba(254,254,254,1) 100%);
+  background: linear-gradient(to bottom, rgba(226,226,226,1) 0%, rgba(226,226,226,1) 7%, rgba(219,219,219,1) 27%, rgba(209,209,209,1) 63%, rgba(254,254,254,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=0 );
+}
+
+.ShelterFind-banner{
+  width: 100%;
+  height: auto;
 }
 
 
@@ -389,6 +443,47 @@ a{
 
 }
 
+/*ShelterFind intro text*/
+.shelterFind-intro {
+  display: table;
+  margin-bottom: 70px;
+
+}
+
+.shelterFind-intro-icon {
+  display: table-cell;
+  vertical-align: top;
+}
+.shelterFind-intro-text {
+  height: 1px;
+  padding-right: 10px;
+  width: 465px;
+  vertical-align: center;
+}
+.shelterFind-intro-text1{
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.shelterFind-intro-textName{
+  display: table-row;
+}
+
+.shelterFind-intro-textName h1{
+  color: #212121;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 35px;
+  margin: 25px 0 10px 0;
+  text-align: left;
+
+}
+
+.shelterFind-intro-icon-container {
+  margin: 25px 25px 0 25px;
+}
+
+
 .about-techYiad{
   position: relative;
   width: 880px;
@@ -401,6 +496,16 @@ a{
   padding: 50px;
   padding-bottom: 10px;
 }
+.shelterfind-banner-container{
+  position: relative;
+  width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  z-index: 5;
+
+}
+
 
 .contacts span{
   --x-height-multiplier: 0.375;
@@ -445,6 +550,14 @@ a{
     box-shadow: rgba(163, 177, 191, 0.3) 0px 17px 24px;
     z-index: 5;
   }
+  .shelterfind-banner-container{
+    position: center;
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    z-index: 5;
+  }
 
   .about-techYiad-text{
     --x-height-multiplier: 0.375;
@@ -475,6 +588,15 @@ a{
     box-shadow: rgba(163, 177, 191, 0.3) 0px 17px 24px;
     z-index: 5;
   }
+  .shelterfind-banner-container{
+    position: center;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    z-index: 5;
+
+  }
   .android-wear-section{
     height: 400px;
   }
@@ -491,6 +613,15 @@ a{
     box-shadow: rgba(163, 177, 191, 0.3) 0px 17px 24px;
     z-index: 5;
   }
+  .shelterfind-banner-container{
+    position: center;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    z-index: 5;
+  }
+
   .android-wear-section{
     height: 400px;
   }
@@ -703,8 +834,8 @@ h2 {
 
 }
 .about-SF-images{
-  padding-top: 20px;
-  border: 4px solid #CC0066;
+  padding-top: 0px;
+  border: 2px solid white;
 }
 
 /*hr {*/
@@ -943,3 +1074,5 @@ h2 {
   width: 250px;
   margin-right: 10px;
 }
+
+
