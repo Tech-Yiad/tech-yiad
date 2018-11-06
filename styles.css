@@ -57,7 +57,7 @@ a img{
   right: 20%;
   bottom: -26px;
   z-index: 3;
-  background: #64ffda !important;
+  background: #ea1535 !important;
   color: black !important;
 }
 
@@ -155,7 +155,7 @@ background-color: #ea1535;
   }
 
     .android-navigation .mdl-navigation__link:hover {
-      border-bottom: 4px solid blue;
+      border-bottom: 4px solid white;
     }
 
   .android-search-box {
@@ -876,7 +876,7 @@ h2 {
 }
 
   .android-footer a:hover {
-    color: #8bc34a;
+    color: white;
   }
 
   .android-footer .mdl-mega-footer--top-section::after {
@@ -1023,7 +1023,7 @@ h2 {
 }
 
 .mdl-card__actions {
-  outline: #CC0066 solid 5px;
+  outline: #ea1535 solid 5px;
   z-index: 4;
 }
 
@@ -1053,7 +1053,7 @@ h2 {
 .demo-card-wide > .mdl-card__title {
   color: #fff;
   height: 64px;
-  background-color:#CC0066;
+  background-color:#ea1535;
 }
 
 .mdl-card__title-text {
