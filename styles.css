@@ -1089,5 +1089,9 @@ h2 {
   width: 250px;
   margin-right: 10px;
 }
-
+.privacy-policy{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  outline: solid #2a7ae2;
+}
 
