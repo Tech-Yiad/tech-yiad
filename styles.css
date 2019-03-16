@@ -1095,30 +1095,47 @@ h2 {
   outline: solid #2a7ae2;
 }
 #gamePageHeader{
-  margin: 15px;
-  position: center;
-  margin-left: 25px;
+  /*margin: 15px;*/
+  /*position: center;*/
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
   -webkit-box-shadow: -1px 10px 50px -5px rgba(0,0,0,0.41);
   -moz-box-shadow: -1px 10px 50px -5px rgba(0,0,0,0.41);
   box-shadow: -1px 10px 50px -5px rgba(0,0,0,0.41);
   padding: 10px;
 }
+#gamePageHeader{
+  margin: 10px;
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
+  -webkit-box-shadow: -1px 10px 50px -5px rgba(0,0,0,0.41);
+  -moz-box-shadow: -1px 10px 50px -5px rgba(0,0,0,0.41);
+  box-shadow: -1px 10px 50px -5px rgba(0,0,0,0.41);
+  padding: 10px;
+  display:table-cell;
+  vertical-align:middle;
+  text-align:center
+}
 .homeImage{
   height: 500px;
   width: 300px;
-  position: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2px;
+  /*horiz-align: center;*/
 }
-@media screen and (max-width: 400px) {
-  .homeImage{
-    height: 280px;
-    width: 150px;
-    position: center;
-    padding: 3px;
-  }
-  #Screen4{
-    display: none;
-  }
-}
+/*@media screen and (max-width: 400px) {*/
+  /*.homeImage{*/
+    /*height: 280px;*/
+    /*width: 150px;*/
+    /*position: center;*/
+    /*padding: 3px;*/
+  /*}*/
+  /*#Screen4{*/
+    /*display: none;*/
+  /*}*/
+/*}*/
 .gamePageBackground{
   /*background-color: black;*/
   height: 400px;
